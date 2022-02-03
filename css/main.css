@@ -1,0 +1,107 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color:gray;
+    margin: 0px;
+    padding:0px;
+}
+nav{
+    width: 100%;
+    height: 105px;
+    background-color: black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+li{
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    border-width: 3px 3 px 0px 0px;
+    border-style: solid;
+    border-color:white;
+}
+li:hover{
+    border-width: 0px 0px 3px 3px;
+    transition: all 0.0s;
+}
+.gg{
+    color: white;
+}
+main{
+    margin-bottom: 100px;
+    background-color:gray;
+    width: 100%;
+    height: 700px;
+}
+.line-1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.block-1{
+    background-color:white;
+    height: 100%;
+    width: 45%;
+    border-radius: 15px;
+}
+.naam{
+    text-align: center;
+}
+.fotoennaam{
+    float: left;
+    margin:20px 1.5% 0px 1.5%;
+    border-radius: 15px;
+    width: 30%;
+    height: 600px;
+background-color: white;
+text-align: left;
+}
+.overmij{
+    text-align: center;
+}
+.Aboutimg{
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    margin:40px 0.1% 40px 0.1%;
+}
+.Boksenjpg{
+    float:left;
+    width: 50%;
+    height: auto;
+    border-radius: 60px;
+    margin: 80px 0.1% 5px 0.1%;
+}
+.fitnessjpg{
+    float:left;
+    width: 40%;
+    height: 35%;
+    border-radius: 60px;
+    justify-content: space-evenly;
+    margin: 83px 0.1% 5px 0.1%;
+}
+.fotoennaam{
+    text-align: center;
+}
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+}
+.blok-1{
+    align-items: center;
+    text-align: center;
+}
